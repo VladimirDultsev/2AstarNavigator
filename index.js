@@ -80,11 +80,3 @@ class PathFinder {
         }
     }
 }
-// Пример использования: 
-let lat1 = 55.888799, lon1 =37.565719, lat2 = 55.609171, lon2 = 37.571662;
-const executablePath = '/Users/vladimir/CLionProjects/2AStar_Release/cmake-build-debug/2AStar_Release';
-const outputPath = '/Users/vladimir/CLionProjects/2AStar_Release/output.geojson';
-const graphPath = '/Users/vladimir/CLionProjects/2A*/moscow_roads.geojson';
-
-const proc = bulidGraph(executablePath, outputPath, graphPath);
-getPath(proc, lat1, lon1, lat2, lon2).then(() => exit(proc));
