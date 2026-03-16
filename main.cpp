@@ -21,7 +21,7 @@ struct pair_hash {
 };
 
 using namespace std;
-map<unsigned long long int, unordered_set<double>> dict[2];
+map<double, unordered_set<unsigned long long int>> dict[2];
 unordered_map<unsigned long long int, tuple<double, double, unsigned long long int, bool>>pars[2];//эвристика, minDist (чистое расстояние без эвристики), родитель
 unordered_map<unsigned long long int, pair<double, double>> points;
 unordered_map<pair<double, double>, int, pair_hash> Indices;
