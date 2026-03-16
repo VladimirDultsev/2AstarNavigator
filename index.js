@@ -80,3 +80,5 @@ class PathFinder {
         }
     }
 }
+
+module.exports = { PathFinder };
